@@ -1,4 +1,92 @@
-# OpenSim Gait2392 Model Tutorial
+# BIP OpenSim
+
+![Alt text](\Snippets\1.0.2_NRG.png) ![Alt text](\Snippets\1.0.2_UniVie.png)
+
+## Required Software
+- OpenSim (version 4.4 preferable)
+- Mokka 
+
+useful tutorials:
+- https://simtk-confluence.stanford.edu:8443/display/OpenSim/Tutorial+1+-+Intro+to+Musculoskeletal+Modeling
+- https://simtk-confluence.stanford.edu:8443/display/OpenSim/Workshops+and+Events
+
+useful tools:
+- VSCode or other IDE
+
+## Check the cheat_sheet.pdf for detailed information on terminology used throughout
+- Bodies
+- Actuators
+- Probes
+- Markers
+
+# Intro - 3h
+
+## Quick examples based on presentations (15 min)
+
+For years, we've been fascinated with measuring muscle and joint loads. 
+
+### Paper 1 - Komi 1982
+
+Let's start by simulating running quickly and examining tendon forces. Later, we'll compare our findings with those presented in Komi's paper.
+
+### Paper 2 - Loads on the Body
+
+Ever wondered how many loads are placed on the shoulder while lifting a cup? Check out this [research paper](https://www.sciencedirect.com/science/article/abs/pii/S0021929009003169).
+Let's simulate a shoulder movement as a quick demonstration.
+
+### Paper 3 - Bone Deformities
+
+Explore bone deformities in this [research paper](https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044).
+Now, let's proceed with a quick demonstration.
+
+### Questions
+    - Can 
+
+## What is an MSK Skeletal Model? Open your first model (30 min)
+
+- Open OpenSim
+- Load the model
+- Let's go through the different components step by step
+- Show the different commands and tools
+
+### Questions:
+    - What are the components of a model?
+    - 
+    - How can a model be edited? (GUI, text editor, scripting)
+
+
+## Bad example tutorial (30 min)
+- Data from walking compared with invivo results 
+
+## Getting to Know the Files (30 min)
+- Open the folder
+- Ensure everyone can open .trc, .mot, .xml files (test everyone's software)
+- For those who can't, we'll provide assistance during a break
+
+## ------------- 10 min Break ------------- 
+
+
+
+# The importance of scalling and marker registration (3h)
+
+## Scaling, Inverse kinematics (1h)
+- Theory
+- Load the model
+- Open the setup file
+- Attempt scaling with incorrect settings
+- Show how to adjust and apply proper scaling settings
+
+### Questions
+    - What is the 
+
+## ------------- 10 min Break ------------- 
+
+##
+
+# 
+
+
+# Tutorial OpenSim Gait2392 Model Tutorial 
 
 ## Introduction
 
@@ -26,3 +114,91 @@ Once you have downloaded and installed the Gait2392 model, launch OpenSim and im
 import opensim
 
 gait2392_model = opensim.Model('path/to/gait2392.osim')
+```
+
+## Step 3: Explore Model Components
+
+Explore the various components of the Gait2392 model, such as the musculoskeletal structure, joints, muscles, and markers. Familiarize yourself with the model's anatomy and properties.
+
+## Simulating Gait
+
+### Step 4: Set Up a Gait Simulation
+
+To simulate human gait using the Gait2392 model, you need to define a simulation setup. This includes specifying initial conditions, forces, and controllers.
+
+### Step 5: Run the Simulation
+
+Execute the gait simulation in OpenSim.
+
+```python
+# Sample code for running a gait simulation
+simulator = opensim.Simulator(gait2392_model)
+simulator.setInitialTime(0.0)
+simulator.setFinalTime(1.0)
+simulator.integrate()
+```
+
+## Step 6: Analyze Simulation Results
+
+Once the simulation has completed, it's time to analyze the results. OpenSim provides various tools and libraries for post-processing and visualization. You can use Python or OpenSim's built-in tools to analyze the data generated during the simulation.
+
+Here are some common analyses you can perform:
+
+- **Inverse Kinematics**: Estimate joint angles and movements throughout the gait cycle to understand how the model's joints behave.
+
+- **Muscle Analysis**: Examine muscle and tendon kinematics and muscle moment arms.
+
+- **Static Optimization**: Estimate of individual muscle forces from .
+
+- **Joint Reaction Analysis**: Estimate net joint forces resulting from the sum of muscle and intergmental forces.
+
+- **Energy Expenditure**: Calculate the energy expenditure of the model during the simulation to gain insights into the metabolic cost of gait.
+
+Remember to document your findings and visualize the results to present your analysis effectively.
+
+## Conclusion
+
+In this tutorial, you've learned how to work with the OpenSim Gait2392 model for simulating and analyzing human gait. You've covered the following key steps:
+
+1. Downloading and importing the Gait2392 model into OpenSim.
+2. Exploring the model's components, including the musculoskeletal structure, joints, muscles, and markers.
+3. Setting up a gait simulation by defining initial conditions, forces, and controllers.
+4. Running the simulation to generate data.
+5. Analyzing the simulation results, including joint kinematics, muscle activity, ground reaction forces, and energy consumption.
+
+The Gait2392 model is a valuable resource for biomechanical research, and with the knowledge gained in this tutorial, you can conduct in-depth studies on human gait. Feel free to explore further, experiment with different scenarios, and use the model for your specific research or analysis needs.
+
+
+
+
+
+
+# Scripting commands 
+
+run a simple setup file from cmd 
+```
+opensim-cmd run-tool \path\to\xmlFile\arm26_Setup_InverseKinematics.xml
+```
+
+
+
+# Questions
+
+## What is an MSK Skeletal Model
+
+## Bad simulation
+    - What is wrong with this simulation?
+
+## Scaling 
+    - When would you use manual scalling?
+    - What is the best set of weights?
+        All markers 10
+        Greater weight to the cluster muarkers
+        Greater weight to the anatomical markers
+
+## Inverse Kinematics
+
+## Inverse Dynamics 
+
+## Comupted muscle control
+- Differences from static optimization?
