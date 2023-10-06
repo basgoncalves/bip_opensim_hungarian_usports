@@ -1,6 +1,6 @@
 # BIP OpenSim
 
-![Alt text](\Snippets\1.0.2_NRG.png) ![Alt text](\Snippets\1.0.2_UniVie.png)
+![Alt text]('.\Snippets\1.0.2_NRG.png') ![Alt text](\Snippets\1.0.2_UniVie.png)
 
 ## Required Software
 - OpenSim (version 4.4 preferable)
