@@ -1,14 +1,16 @@
 # BIP OpenSim
 
-![Alt text]('.\Snippets\1.0.2_NRG.png') ![Alt text](\Snippets\1.0.2_UniVie.png)
+![Alt text](.\Snippets\1.0.2_NRG.png) ![Alt text](\Snippets\1.0.2_UniVie.png)
 
 ## Required Software
 - OpenSim (version 4.4 preferable)
 - Mokka 
+- Windows OS (tutorial works for Mac with minor adjustments)
 
 useful tutorials:
 - https://simtk-confluence.stanford.edu:8443/display/OpenSim/Tutorial+1+-+Intro+to+Musculoskeletal+Modeling
 - https://simtk-confluence.stanford.edu:8443/display/OpenSim/Workshops+and+Events
+- https://simtk-confluence.stanford.edu:8443/display/OpenSim/ESMAC+Workshop+September+2022
 
 useful tools:
 - VSCode or other IDE
@@ -19,7 +21,7 @@ useful tools:
 - Probes
 - Markers
 
-# Intro - 3h
+# 1. Intro - 3h
 
 ## Quick examples based on presentations (15 min)
 
@@ -39,51 +41,111 @@ Let's simulate a shoulder movement as a quick demonstration.
 Explore bone deformities in this [research paper](https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044).
 Now, let's proceed with a quick demonstration.
 
-### Questions
-    - Can 
 
 ## What is an MSK Skeletal Model? Open your first model (30 min)
 
 - Open OpenSim
-- Load the model
+- Load the model ('C:\')
 - Let's go through the different components step by step
 - Show the different commands and tools
 
 ### Questions:
-    - What are the components of a model?
-    - 
-    - How can a model be edited? (GUI, text editor, scripting)
-
+- What are the components of a model?
+- How can a model be edited? (GUI, text editor, scripting)
+- 
 
 ## Bad example tutorial (30 min)
 - Data from walking compared with invivo results 
 
-## Getting to Know the Files (30 min)
+## ------------- 10 min Break ------------- 
+
+## Getting to know the files and olotting tool (30 min)
 - Open the folder
 - Ensure everyone can open .trc, .mot, .xml files (test everyone's software)
 - For those who can't, we'll provide assistance during a break
 
-## ------------- 10 min Break ------------- 
+## Run all the steps of the simulation Gait2
+
+- 
+- Plot of right hip, knee, ankle sagittal angles.
+- Plot 
+
+### Questions
+- What is the peak hip flexion, hip
 
 
+# 2. The importance of scalling and marker registration (3h)
 
-# The importance of scalling and marker registration (3h)
-
-## Scaling, Inverse kinematics (1h)
+## 2.1 Scaling, Inverse kinematics (1h)
 - Theory
+    https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Scaling+Works
+    https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Inverse+Kinematics+Works
 - Load the model
 - Open the setup file
 - Attempt scaling with incorrect settings
 - Show how to adjust and apply proper scaling settings
 
+- Scale the same model with two different sets of weights (1000 vs 500 vs 1 for anatomical landmarks)
+    1. Load subject01_Setup_Scale.xml 
+    2. Change the weights and save new setup file
+    3. Run Scale tool
+    4. Overlay experimental markers (right click "subject01 -> Motions -> static pose")
+    5. Load subject01_Setup_IK.xml and run IK tool
+    6. Assess marker errors
+    7. Repeat with different weights 
+
+    Note: Right click the models to show/hide, change offset,... 
+
+### Questions 
+- How do marker weights change scale factors?
+- What are, approximately, total, RMS, and maximum marker errors?
+- Plot hip, knee, and ankle angles
+- What is the peak hip flexion angle during walking?
+- What is the peak knee flexion angle during walking?
+- What is the peak knee flexion angle during walking?
+
+
+## 2.2 Register markers (30 min)
+- Add markerset to the osim model in the xml
+- Create a new model with all the markers set to "fixed" (Tip: use the replace function in the tex editor)
+- Save model as "gait2392_simbody_withMarkerSet.osim"
+- Load the new model and run scale (untick "Add markerset from files")
+- Run inverse kinematics
+
 ### Questions
-    - What is the 
+- What happened to the marker errors during scalling?
+- Compare hip, knee, and ankle angles between the two models.
+- Describe what happened to each joint angle. 
+
+![Alt text](\Snippets\2.2.2_fixed_vs_not_fixed.png)
 
 ## ------------- 10 min Break ------------- 
 
-##
+## Visualize GRF and set up .xml file (10 min)
+- Associate motion data "subject01_walk1_grf.mot"
+- Check if the force vecotrs are syncronized with motion (if there is a delay or offset, restart opensim)
+- run inverse dynamics tool 
+- plot hip, knee, and ankle sagittal moments
 
-# 
+### Questions 
+- What are the peak hip extension, knee extension, and ankle plantar flexor moments?
+
+## Apply GRF to different bodies (30 min)
+- Load the setup_ID.xml
+- Change the point of application of the forces
+- run inverse dynamics tool
+
+### Questions 
+- Compare hip, knee, and ankle moments
+- How did moments change during stance?
+- How did moments change during swing?
+
+# 3. Muscle and joint contact forces 
+
+## 
+
+### Questions
+- What is the difference between CMC and Static Optimization?
 
 
 # Tutorial OpenSim Gait2392 Model Tutorial 
@@ -186,15 +248,9 @@ opensim-cmd run-tool \path\to\xmlFile\arm26_Setup_InverseKinematics.xml
 
 ## What is an MSK Skeletal Model
 
-## Bad simulation
-    - What is wrong with this simulation?
 
-## Scaling 
-    - When would you use manual scalling?
-    - What is the best set of weights?
-        All markers 10
-        Greater weight to the cluster muarkers
-        Greater weight to the anatomical markers
+
+
 
 ## Inverse Kinematics
 
