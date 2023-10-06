@@ -32,7 +32,7 @@ Hnas Kainz - hans.kainz@univie.ac.at
 
 # 1. Intro - 3h
 
-## Quick examples based on presentations (20 min)
+## 1.1Quick examples based on presentations (20 min)
 
 For years, we've been fascinated with measuring muscle and joint loads. But not easy to measure in-vivo.
 
@@ -49,13 +49,16 @@ Explore bone deformities in this [research paper](https://www.sciencedirect.com/
 Now, let's proceed with a quick demonstration.
 
 
-## What is an MSK Skeletal Model? Open your first model (30 min)
+## 1.2 What is an MSK Skeletal Model? Open your first model (30 min)
 
+- Open the folder "Hello_world_of_simulations"
 - Open OpenSim
-- Load the model 
+- Load model 
 - Let's go through the different components step by step
 - Show the different commands and tools
 - Preview experimetnal data (markers and grf)
+
+![Alt text](.\Snippets\24.8_job_not_finished.png) 
 
 ### Questions:
 - What are the components of a model?
@@ -68,10 +71,12 @@ Now, let's proceed with a quick demonstration.
 - Load experimetal trc. Why are the markers doing a moon walk?
 
 
-## Getting to know the files and plotting tool (30 min)
+## 1.3 Getting to know the files and plotting tool (30 min)
 - Open the folder
 - Ensure everyone can open .trc, .mot, .xml files (test everyone's software)
-- For those who can't, we will ll provide assistance during a break
+- For those who cannot, we will provide assistance during a break
+
+![Alt text](.\Snippets\24.8_job_not_finished.png) 
 
 ### Questions:
 - What is the max moment arm of psoas during hip flexion?
@@ -80,7 +85,7 @@ Now, let's proceed with a quick demonstration.
 
 ## ------------- 10 min Break ------------- 
 
-## Run all the steps of the simulation Gait2392 (60 min)
+## 1.4 Run all the steps of the simulation Gait2392 (60 min)
 - Run scale tool
 - Inverse kinematics tool
 - Inverse dynamics tool
@@ -88,8 +93,9 @@ Now, let's proceed with a quick demonstration.
 - Analyze tool
 - Plot simulation results for each step
 
-### add ID and SO instead of CMC and RRA and change Analyze tool
+![Alt text](.\Snippets\1.4.1mtu_length_hams_walking.png) 
 
+![Alt text](.\Snippets\24.8_job_not_finished.png) 
 
 ### Questions
 - What are the peak hip, knee, and ankle angles?
