@@ -36,16 +36,12 @@ Hnas Kainz - hans.kainz@univie.ac.at
 For years, we've been fascinated with measuring muscle and joint loads. But not easy to measure in-vivo.
 
 ### Paper 1 - Komi 1982
-Let's start by simulating running quickly and examining tendon forces. Later, we'll compare our findings with those presented in Komi's paper.
-
 
 ### Paper 2 - Loads on the Body
-Ever wondered how many loads are placed on the shoulder while lifting a cup? Check out this [research paper](https://www.sciencedirect.com/science/article/abs/pii/S0021929009003169).
-Let's simulate a shoulder movement as a quick demonstration.
+https://www.sciencedirect.com/science/article/abs/pii/S0021929009003169
 
 ### Paper 3 - Bone Deformities
-Explore bone deformities in this [research paper](https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044).
-Now, let's proceed with a quick demonstration.
+https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 
 
 ## 1.2 What is an MSK Skeletal Model? Open your first model (30 min)
@@ -54,7 +50,7 @@ Now, let's proceed with a quick demonstration.
 - Open OpenSim
 - Load model 
 - Let's go through the different components step by step
-- Show the different commands and tools
+- Explore the different commands and tools
 - Preview experimetnal data (markers and grf)
 
 ![Alt text](.\Snippets\24.8_job_not_finished.png) 
