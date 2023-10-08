@@ -1,8 +1,0 @@
-[2023-10-06 00:43:19.994] [info] Preparing to run ScaleTool.
-[2023-10-06 00:43:19.996] [info] Processing subject subject01...
-[2023-10-06 00:43:19.996] [info] Step 1: Loading generic model
-[2023-10-06 00:43:19.998] [error] Object: Cannot open file gait2392_simbody.osim. It may not exist or you do not have permission to read it.
-	Thrown at Object.cpp:105 in Object().
-[2023-10-06 00:43:19.999] [error] Unable to load generic model at path .
-[2023-10-06 00:43:19.999] [error] ScaleTool: No model specified.
-[2023-10-06 00:43:19.999] [error] ScaleTool: No model specified.
