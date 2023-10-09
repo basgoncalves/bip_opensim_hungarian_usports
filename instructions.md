@@ -74,7 +74,6 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
     - Use OpenSim for .osim
 - For those who cannot, we will provide assistance during a break
 
-![Alt text](.\Presentation\Snippets\24.8_job_not_finished.png) 
 
 ### Questions:
 - What is the maximum moment arm of psoas during hip_flexion_r?
@@ -90,21 +89,21 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - Inverse kinematics tool (subject01_Setup_Scale.xml)
 - Inverse dynamics tool (subject01_Setup_Scale.xml)
 - Static optimization (subject01_Setup_Scale.xml)
-- Analyze tool (subject01_Setup_analyze.xml)
+- Analyze tool (subject01_Setup_Analyze.xml)
 - Plot simulation results for each step (load the results files first)
 
 
 ![Alt text](.\Presentation\Snippets\1.4.1mtu_length_hams_walking.png) 
 
 ### Questions
-- What
 - What are the range of marker errors during the inverse kinematics step?
 - What are the peak hip, knee, and ankle angles?
 - what are the peak sagittal joint moments hip, knee, and ankle?
 - What are the lat_gas and rect_fem peak forces and activation?
 - What are the mtu lengths for bflh_r and soleus_r. 
 - What are the maximum reserves moments hip_flexion_r, hip_adduction_r,	hip_rotation_r,	knee_angle_r,	ankle_angle_r
-- How many body weights does the model output during the JRA for the vertical compontent of hip contact loads?
+- How is the peak vertical component of hip contact loads, relative to participants body weight?
+
 
 # Summary and questions
 
@@ -206,10 +205,6 @@ Note: the presnet residuals are recomendations for walking, during running resid
 - Are the residual moments acceptable? 
 
 
-
-
-
-
 # --------------------------------------- 
 #               Day 3            
 # ---------------------------------------  
@@ -233,15 +228,11 @@ https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Static+Optimizati
 - Double the maximum isometric force of all muscles and re-run the simulations. What changed?
 
 
-![Alt text](\Snippets\3.1.1_muscle_activations.png)
+![Alt text](.\Snippets\3.1.1_muscle_activations.png)
 
-![Alt text](\Snippets\3.1.1_muscle_activations_large_actuators_250.png)
+![Alt text](.\Snippets\3.1.1_muscle_activations_large_actuators_250.png)
 
 ![Alt text](\Snippets\3.1.1_researves_large_actuators_250.png)
-
-![Alt text](\Snippets\)
-
-![Alt text](\Snippets\)
 
 
 ## ------------- 10 min Break ------------- 
@@ -291,7 +282,6 @@ Protocol described here: https://www.sciencedirect.com/science/article/abs/pii/S
 - How were moments arms affected by the torsion
 
 
-
 ## 4.2 Compare muscle forces before and after maximal repeated sprints (45 min)
 
 Protocol described here: https://www.sciencedirect.com/science/article/abs/pii/S1440244021000608 
@@ -304,15 +294,12 @@ Protocol described here: https://www.sciencedirect.com/science/article/abs/pii/S
 - What are peak force of biceps femoris and soleus muscles?
 
 
-
 ## 4.3 Simulation and Analysis of a Tendon Transfer Surgery (45 min)
 
 Protocol described here: https://simtk-confluence.stanford.edu:8443/pages/viewpage.action?pageId=92110947 
 
 ### Questions
-
-
-
+- How did the MTU length of the rect_fem_r change?
 
 # --------------------------------------- 
 #               Day 5           

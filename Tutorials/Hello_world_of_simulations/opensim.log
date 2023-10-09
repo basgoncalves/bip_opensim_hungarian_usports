@@ -1159,3 +1159,30 @@ Details: Object: Cannot open file C:\Users\Bas\Documents\OpenSim\4.4\Models\Gait
 [2023-10-09 09:59:57.069] [info] Executing the analyses from 0.5 to 2.5...
 [2023-10-09 09:59:57.207] [info] Loading actuator forces from file .\SO\s_StaticOptimization_force.sto.
 [2023-10-09 09:59:57.207] [error] IO.OpenInputFile(const string&,openmode mode): failed to open .\SO\s_StaticOptimization_force.sto.
+[2023-10-09 10:03:27.278] [info] Adding force object set from C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\gait2392_SO_Actuators.xml
+[2023-10-09 10:03:27.320] [info] Loading coordinates from file 'C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\subject01_walk1_ik.mot'.
+[2023-10-09 10:03:27.321] [info] Storage: read data file = C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\subject01_walk1_ik.mot (nr=121 nc=24)
+[2023-10-09 10:03:27.368] [info] Found 121 state vectors with time stamps ranging from 0.5 to 2.5.
+[2023-10-09 10:03:27.415] [info] ExternalLoads 'Ex2' was renamed and is being reset to 'externalloads'.
+[2023-10-09 10:03:27.429] [info] Storage: read data file = subject01_walk1_grf.mot (nr=1501 nc=19)
+[2023-10-09 10:03:27.448] [info] ExternalForce::ExternalForce_1 Data source being set to subject01_walk1_grf.mot
+[2023-10-09 10:03:27.448] [info] ExternalForce::ExternalForce_2 Data source being set to subject01_walk1_grf.mot
+[2023-10-09 10:03:27.458] [info] Executing the analyses from 0.5 to 2.5...
+[2023-10-09 10:03:27.601] [info] Loading actuator forces from file .\SO\s_StaticOptimization_force.sto.
+[2023-10-09 10:03:27.602] [error] IO.OpenInputFile(const string&,openmode mode): failed to open .\SO\s_StaticOptimization_force.sto.
+[2023-10-09 10:04:08.449] [info] Adding force object set from C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\gait2392_SO_Actuators.xml
+[2023-10-09 10:04:08.488] [info] Loading coordinates from file 'C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\subject01_walk1_ik.mot'.
+[2023-10-09 10:04:08.488] [info] Storage: read data file = C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\subject01_walk1_ik.mot (nr=121 nc=24)
+[2023-10-09 10:04:08.539] [info] Found 121 state vectors with time stamps ranging from 0.5 to 2.5.
+[2023-10-09 10:04:08.588] [info] ExternalLoads 'Ex2' was renamed and is being reset to 'externalloads'.
+[2023-10-09 10:04:08.603] [info] Storage: read data file = subject01_walk1_grf.mot (nr=1501 nc=19)
+[2023-10-09 10:04:08.623] [info] ExternalForce::ExternalForce_1 Data source being set to subject01_walk1_grf.mot
+[2023-10-09 10:04:08.623] [info] ExternalForce::ExternalForce_2 Data source being set to subject01_walk1_grf.mot
+[2023-10-09 10:04:08.633] [info] Executing the analyses from 0.5 to 2.5...
+[2023-10-09 10:04:08.779] [info] Loading actuator forces from file .\SO\_StaticOptimization_force.sto.
+[2023-10-09 10:04:08.779] [info] Storage: read data file = .\SO\_StaticOptimization_force.sto (nr=126 nc=134)
+[2023-10-09 10:04:08.794] [info] Found 133 actuator forces with time stamps ranging from 0.492to 2.492.
+[2023-10-09 10:04:08.795] [warning] The forces file contains actuators that are not in the model's actuator set.
+[2023-10-09 10:04:08.797] [warning] Ignoring fiber lengths and activations from the states since forces_file is also set. Actuator forces will be constructed from .\SO\_StaticOptimization_force.sto.
+[2023-10-09 10:04:09.356] [info] Printing results of investigation subject01_walk1 to C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\.\ResultsAnalyze
+[2023-10-09 10:04:25.996] [info] Storage: read data file = C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\ResultsAnalyze\subject01_walk1_JointReaction_ReactionLoads.sto (nr=121 nc=109)
