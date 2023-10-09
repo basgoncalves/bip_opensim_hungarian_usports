@@ -20,28 +20,20 @@ Hnas Kainz - hans.kainz@univie.ac.at
 # Useful tools:
 - VSCode or other IDE
 
-## Check the cheat_sheet.pdf for detailed information on terminology used throughout
-- Bodies
-- Actuators
-- Probes
-- Markers
-
 # --------------------------------------- 
 #               Day 1            
 # ---------------------------------------  
 
-# 1. Intro - 3h
+# 1. Intro - 3h (start at 14h00)
 
-## 1.1 Quick examples based on presentations (20 min)
+## 1.1 Quick examples based on presentations (20 min - 14h10)
 
-For years, we've been fascinated with measuring muscle and joint loads. But not easy to measure in-vivo.
-See references for examples
-
+https://www.sciencedirect.com/science/article/abs/pii/S0278591920305068
 https://www.sciencedirect.com/science/article/abs/pii/S0021929009003169
 https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 
 
-## 1.2 What is an MSK Skeletal Model? Open your first model (30 min)
+## 1.2 What is an MSK Skeletal Model? Open your first model (30 min - 14h30)
 
 - Open the folder "Hello_world_of_simulations"
 - Open OpenSim
@@ -66,7 +58,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - Load experimental GRF. Why are the forces not below the feet markers? Make them alignned
 
 
-## 1.3 Getting to know the files and plotting tool (30 min)
+## 1.3 Getting to know the files and plotting tool (30 min - 15h00)
 - Open the files in their respective software:
     - Use Mokka for .c3d files
     - Use excel for .trc, .mot, .sto 
@@ -78,13 +70,13 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 ### Questions:
 - What is the maximum moment arm of psoas during hip_flexion_r?
 - Why are moment arms negative?
-- Plot the mtu lenght of the psoas_r during hip_flexion_r. Explain the figure.
+- Plot the mtu length of the psoas_r during hip_flexion_r. Explain the figure.
 - Plot mtu length of lat_gas_r and bflh_r during hip flexion. Why are they so different?
 - Plot active, passive, and total-fiber force. 
 
-## ------------- 10 min Break ------------- 
+## ------------- 10 min Break ------------- (15h30)
 
-## 1.4 Run all the steps of the simulation Gait2392 (60 min)
+## 1.4 Run all the steps of the simulation Gait2392 (60 min - 15h40)
 - Run scale tool (subject01_Setup_Scale.xml)
 - Inverse kinematics tool (subject01_Setup_Scale.xml)
 - Inverse dynamics tool (subject01_Setup_Scale.xml)
@@ -102,10 +94,10 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - What are the lat_gas and rect_fem peak forces and activation?
 - What are the mtu lengths for bflh_r and soleus_r. 
 - What are the maximum reserves moments hip_flexion_r, hip_adduction_r,	hip_rotation_r,	knee_angle_r,	ankle_angle_r
-- How is the peak vertical component of hip contact loads, relative to participants body weight?
+- What is the peak vertical component of hip contact loads, relative to participants body weight?
 
 
-# Summary and questions
+# Summary and questions (16h40)
 
 # --------------------------------------- 
 #               Day 2            
@@ -119,13 +111,18 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - Theory
     https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Scaling+Works
     https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Inverse+Kinematics+Works
-- Load the model
-- Open the setup file
-- Attempt scaling with incorrect settings
+- Load the model 
+    "Tutorials\Sprinting\009\session1\"
+    model name "Rajagopal_generic.osim"
+- Run the scale tool using "setup_Scale_1.xml"
 - Show how to adjust and apply proper scaling settings
+- Go throught the problems with the scalling
+    Marker errors
+    Marker weights
+    How to se
 
 - Scale the same model with two different sets of weights (1000 vs 500 vs 1 for anatomical landmarks)
-    1. Load C:\Git\BIP_OpenSim_Hungarian_USports\ExampleData\Sprinting\009\  ( make sure model is called Rajagopal_with_deep_hip_muscles)
+    1. Load the model "Tutorials\Sprinting\009\session1\Rajagopal_generic.osim"
     2. Change the weights and save new setup file
     3. Run Scale tool
     4. Overlay experimental markers (right click "subject01 -> Motions -> static pose")
@@ -133,10 +130,10 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
     6. Assess marker errors
     7. Repeat with different weights 
 
-    Note: Right click the models to show/hide, change offset,... 
+    Note: Right click the models to show/hide, change offset, etc... 
 
 ### 2.1.1 Questions 
-- How do marker weights change scale factors?
+- How do marker weights change scale factors? 
 - What are, approximately, total, RMS, and maximum marker errors?
 - Plot hip, knee, and ankle angles
 - What is the peak hip flexion angle during sprinting?
