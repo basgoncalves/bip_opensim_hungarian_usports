@@ -3,7 +3,8 @@
 Basilio Goncalves - basilio.goncalves@univie.ac.at
 Hnas Kainz - hans.kainz@univie.ac.at
 
-![Alt text](.\Snippets\1.0.2_NRG.png) ![Alt text](\Snippets\1.0.2_UniVie.png)
+![Alt text](.\Presentation\Snippets\1.0.2_NRG.png) 
+![Alt text](.\Presentation\Snippets\1.0.2_UniVie.png)
 
 ## Required Software
 - OpenSim (version 4.4 preferable)
@@ -34,13 +35,9 @@ Hnas Kainz - hans.kainz@univie.ac.at
 ## 1.1 Quick examples based on presentations (20 min)
 
 For years, we've been fascinated with measuring muscle and joint loads. But not easy to measure in-vivo.
+See references for examples
 
-### Paper 1 - Komi 1982
-
-### Paper 2 - Loads on the Body
 https://www.sciencedirect.com/science/article/abs/pii/S0021929009003169
-
-### Paper 3 - Bone Deformities
 https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 
 
@@ -48,57 +45,66 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 
 - Open the folder "Hello_world_of_simulations"
 - Open OpenSim
-- Load model 
+- Load model "gait2392_simbody.osim"
 - Let's go through the different components step by step
 - Explore the different commands and tools
-- Preview experimetnal data (markers and grf)
+- Use the tool "Preview Experimetnal Data" to view marker and grf 
+    - subject01_walk1.trc
+    - subject01_walk1.trc
 
-![Alt text](.\Snippets\24.8_job_not_finished.png) 
+![Alt text](.\Presentation\Snippets\1.1.2_preview_data.png) 
 
 ### Questions:
 - What are the components of a model?
 - How can a model be edited? (GUI, text editor, scripting)
 - How many bodies does this model have?
 - How many muscles does this model have in each leg?
-- What is the maximum isometric force of recfem?
+- What is the maximum isometric force of rect_fem_r?
 - How many dof hip and knee joint have?
 - How heavy is the tibia segment?
-- Load experimetal trc. Why are the markers doing a moon walk?
+- Load experimental markers. Why are the markers doing a moon walk?
+- Load experimental GRF. Why are the forces not below the feet markers? Make them alignned
 
 
 ## 1.3 Getting to know the files and plotting tool (30 min)
-- Open the files 
-- Ensure everyone can open .trc, .mot, .xml files (test everyone's software)
+- Open the files in their respective software:
+    - Use Mokka for .c3d files
+    - Use excel for .trc, .mot, .sto 
+    - Use NotePad++ for .xml
+    - Use OpenSim for .osim
 - For those who cannot, we will provide assistance during a break
 
-![Alt text](.\Snippets\24.8_job_not_finished.png) 
+![Alt text](.\Presentation\Snippets\24.8_job_not_finished.png) 
 
 ### Questions:
-- 
-- What is the max moment arm of psoas during hip flexion?
+- What is the maximum moment arm of psoas during hip_flexion_r?
 - Why are moment arms negative?
-- Plot the mtu lenght of the Psoas during hip flexion. Explain the figure.
+- Plot the mtu lenght of the psoas_r during hip_flexion_r. Explain the figure.
+- Plot mtu length of lat_gas_r and bflh_r during hip flexion. Why are they so different?
+- Plot active, passive, and total-fiber force. 
 
 ## ------------- 10 min Break ------------- 
 
 ## 1.4 Run all the steps of the simulation Gait2392 (60 min)
-- Run scale tool
-- Inverse kinematics tool
-- Inverse dynamics tool
-- Static optimization
-- Analyze tool
-- Plot simulation results for each step
+- Run scale tool (subject01_Setup_Scale.xml)
+- Inverse kinematics tool (subject01_Setup_Scale.xml)
+- Inverse dynamics tool (subject01_Setup_Scale.xml)
+- Static optimization (subject01_Setup_Scale.xml)
+- Analyze tool (subject01_Setup_analyze.xml)
+- Plot simulation results for each step (load the results files first)
 
-![Alt text](.\Snippets\1.4.1mtu_length_hams_walking.png) 
 
-![Alt text](.\Snippets\24.8_job_not_finished.png) 
+![Alt text](.\Presentation\Snippets\1.4.1mtu_length_hams_walking.png) 
 
 ### Questions
+- What
+- What are the range of marker errors during the inverse kinematics step?
 - What are the peak hip, knee, and ankle angles?
-- what are the peak joint moments?
-- What are the RF forces and activation?
+- what are the peak sagittal joint moments hip, knee, and ankle?
+- What are the lat_gas and rect_fem peak forces and activation?
+- What are the mtu lengths for bflh_r and soleus_r. 
+- What are the maximum reserves moments hip_flexion_r, hip_adduction_r,	hip_rotation_r,	knee_angle_r,	ankle_angle_r
 - How many body weights does the model output during the JRA for the vertical compontent of hip contact loads?
-
 
 # Summary and questions
 
