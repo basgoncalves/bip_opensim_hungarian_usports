@@ -155,7 +155,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - Compare hip, knee, and ankle angles between the two models.
 - Describe what happened to each joint angle. 
 
-![Alt text](\Snippets\2.2.2_fixed_vs_not_fixed.png)
+![Alt text](.\Presentation\Snippets\2.2.2_fixed_vs_not_fixed.png)
 
 ## ------------- 10 min Break ------------- 
 
@@ -169,7 +169,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - What are the peak plantar flexion moment?
 - Why is the left ankle moment so much smaller compared with right?
 
-![Alt text](\Snippets\2.3.1_wrong_grf_application.png)
+![Alt text](.\Presentation\Snippets\2.3.1_wrong_grf_application.png)
 
 ## 2.4 Apply GRF to correct bodies (30 min)
 - Load the setup_ID.xml
@@ -181,7 +181,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - How did moments change during stance?
 - How did moments change during swing?
 
-![Alt text](\Snippets\2.3.1_correct_grf_application.png)
+![Alt text](.\Presentation\Snippets\2.3.1_correct_grf_application.png)
 
 ## 2.5 Residual reduction analysis (45 min)
 - Theory about RRA 
@@ -190,13 +190,13 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - Plot results for pelvis moments from .\Run_baseline\inverse_dynamics.sto
 - Plot results for pelvis moments from .\Run_baseline\RRA\_Actuation_force.sto
 
-![Alt text](\Snippets\2.4.1_id_residuals.png)
+![Alt text](.\Presentation\Snippets\2.4.1_id_residuals.png)
 
-![Alt text](\Snippets\2.4.1_optimal_residuals.png)
+![Alt text](.\Presentation\Snippets\2.4.1_optimal_residuals.png)
 
 Note: the presnet residuals are recomendations for walking, during running residuals are expected to be higher.
 
-![Alt text](\Snippets\2.4.1_rra_residuals.png)
+![Alt text](.\Presentation\Snippets\2.4.1_rra_residuals.png)
 
 ### 2.4.1 Questions 
 - What changes in the trunk segment properties?
@@ -228,11 +228,11 @@ https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Static+Optimizati
 - Double the maximum isometric force of all muscles and re-run the simulations. What changed?
 
 
-![Alt text](.\Snippets\3.1.1_muscle_activations.png)
+![Alt text](.\Presentation\Snippets\3.1.1_muscle_activations.png)
 
-![Alt text](.\Snippets\3.1.1_muscle_activations_large_actuators_250.png)
+![Alt text](.\Presentation\Snippets\3.1.1_muscle_activations_large_actuators_250.png)
 
-![Alt text](\Snippets\3.1.1_researves_large_actuators_250.png)
+![Alt text](.\Presentation\Snippets\3.1.1_researves_large_actuators_250.png)
 
 
 ## ------------- 10 min Break ------------- 
