@@ -1,7 +1,7 @@
 # BIP OpenSim
 
 Basilio Goncalves - basilio.goncalves@univie.ac.at
-Hnas Kainz - hans.kainz@univie.ac.at
+Hans Kainz - hans.kainz@univie.ac.at
 
 ![Alt text](.\Presentation\Snippets\1.0.2_NRG.png) 
 ![Alt text](.\Presentation\Snippets\1.0.2_UniVie.png)
@@ -29,7 +29,7 @@ Hnas Kainz - hans.kainz@univie.ac.at
 ## 1.1 Quick examples based on presentations (20 min - 14h10)
 
 https://www.sciencedirect.com/science/article/abs/pii/S0278591920305068
-https://www.sciencedirect.com/science/article/abs/pii/S0021929009003169
+hnttps://www.sciencedirect.com/science/article/abs/pii/S0021929009003169
 https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 
 
