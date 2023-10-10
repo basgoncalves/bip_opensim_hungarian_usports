@@ -97,17 +97,27 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - What is the peak vertical component of hip contact loads, relative to participants body weight?
 
 
-# Summary and questions (16h40)
+## Summary and questions (16h40)
 
 # --------------------------------------- 
 #               Day 2            
 # ---------------------------------------  
 
-# 2. The importance of scalling and marker registration (3h)
+# 2. The importance of scalling and marker registration (3h - 9h00)
 
-## 2.0 Add markers to the model
+## 2.0 Scalling with wrong settings (30 min - 9h00)
+- Load the model 
+    "Tutorials\Sprinting\009\session1\"
+    model name "Rajagopal_generic.osim"
+- Run the scale tool using "setup_Scale_1.xml"
+- Overlay experimental data
 
-## 2.1 Scaling, Inverse kinematics (1h)
+### 2.2.1 Questions 
+- What were the scalling factors of femur_r, tibia_r, and calcn_r.
+- How is the femur being scalled?
+
+
+## 2.2 Scaling, Inverse kinematics (1h -9h30)
 - Theory
     https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Scaling+Works
     https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Inverse+Kinematics+Works
@@ -119,7 +129,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - Go throught the problems with the scalling
     Marker errors
     Marker weights
-    How to se
+    Scalling factors
 
 - Scale the same model with two different sets of weights (1000 vs 500 vs 1 for anatomical landmarks)
     1. Load the model "Tutorials\Sprinting\009\session1\Rajagopal_generic.osim"
@@ -132,7 +142,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 
     Note: Right click the models to show/hide, change offset, etc... 
 
-### 2.1.1 Questions 
+### 2.2.1 Questions 
 - How do marker weights change scale factors? 
 - What are, approximately, total, RMS, and maximum marker errors?
 - Plot hip, knee, and ankle angles
@@ -141,34 +151,22 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - What is the peak ankle plantarflexion angle during sprinting?
 - How can you increase the trust on your results?
 
-## 2.2 Register markers (30 min)
-- Create a new model with all the markers set to not "fixed" (Tip: use the replace function in the tex editor)
-- Save model
-- Load the new model and run scale
-- Run inverse kinematics
+## ------------- 15 min Break (10h30) ------------- 
 
-### 2.2.1 Questions
-- What happened to the marker errors during scalling?
-- Compare hip, knee, and ankle angles between the two models.
-- Describe what happened to each joint angle. 
-
-![Alt text](.\Presentation\Snippets\2.2.2_fixed_vs_not_fixed.png)
-
-## ------------- 10 min Break ------------- 
-
-## 2.3 Visualize GRF and set up .xml file (10 min)
+## 2.3 Visualize GRF and set up .xml file (15 min - 10h45)
 - Associate motion data "subject01_walk1_grf.mot"
 - Check if the force vecotrs are syncronized with motion (if there is a delay or offset, restart opensim)
 - run inverse dynamics tool 
 - plot right and left ankle moments
 
 ### 2.3.1 Questions 
+- How much is the peak grf relative to participant bodyweight?
 - What are the peak plantar flexion moment?
 - Why is the left ankle moment so much smaller compared with right?
 
 ![Alt text](.\Presentation\Snippets\2.3.1_wrong_grf_application.png)
 
-## 2.4 Apply GRF to correct bodies (30 min)
+## 2.4 Apply GRF to correct bodies (15 min - 11h00)
 - Load the setup_ID.xml
 - Change the point of application of the forces
 - run inverse dynamics tool
@@ -177,10 +175,11 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 - Compare hip, knee, and ankle moments
 - How did moments change during stance?
 - How did moments change during swing?
+- Plot the residual moments (pelvis). Are they acceptable?
 
 ![Alt text](.\Presentation\Snippets\2.3.1_correct_grf_application.png)
 
-## 2.5 Residual reduction analysis (45 min)
+## 2.5 Residual reduction analysis (45 min - 11h15)
 - Theory about RRA 
     https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+RRA+Works 
 - Load .\Run_baseline\setup_RRA.xml and run RRATool
@@ -197,10 +196,14 @@ Note: the presnet residuals are recomendations for walking, during running resid
 
 ### 2.4.1 Questions 
 - What changes in the trunk segment properties?
+- 
+- Plot the trunk, hip, knee, and ankle kinematics before and after RRA (ik.mot and .\RRA\_Kinematics_q.sto)
 - What changed more hip flexion or trunk extension angles?
 - How did the residual moments change after RRA?
-- Are the residual moments acceptable? 
+- Are the residual moments acceptable?
 
+
+## Summary and questions (15 min - 12h00)
 
 # --------------------------------------- 
 #               Day 3            

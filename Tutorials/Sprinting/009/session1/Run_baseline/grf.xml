@@ -22,7 +22,7 @@
 			</ExternalForce>
 			<ExternalForce name="Left">
 				<!--Name of the body the force is applied to.-->
-				<applied_to_body>calcn_l</applied_to_body>
+				<applied_to_body>ground</applied_to_body>
 				<!--Name of the body the force is expressed in (default is ground).-->
 				<force_expressed_in_body>ground</force_expressed_in_body>
 				<!--Name of the body the point is expressed in (default is ground).-->
