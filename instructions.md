@@ -182,6 +182,10 @@ https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
 ## 2.5 Residual reduction analysis (45 min - 11h15)
 - Theory about RRA 
     https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+RRA+Works 
+- Explore the setup files for RRA tool.
+    setup_RRA.xml
+    actuators_RRA.xml
+    tasks_RRA.xml
 - Load .\Run_baseline\setup_RRA.xml and run RRATool
 - Plot results for pelvis moments from .\Run_baseline\inverse_dynamics.sto
 - Plot results for pelvis moments from .\Run_baseline\RRA\_Actuation_force.sto
@@ -195,13 +199,15 @@ Note: the presnet residuals are recomendations for walking, during running resid
 ![Alt text](.\Presentation\Snippets\2.4.1_rra_residuals.png)
 
 ### 2.4.1 Questions 
-- What changes in the trunk segment properties?
-- 
+- What is a residual moment?
+- What are the setup files needed to run the RRA tool?
+- After, RRA, What changed in the trunk segment properties?
+- What is the optimal force of the actuators hip_adduction_r and MX?
+- Why are the optimal forces so different between the coordinates?
 - Plot the trunk, hip, knee, and ankle kinematics before and after RRA (ik.mot and .\RRA\_Kinematics_q.sto)
 - What changed more hip flexion or trunk extension angles?
 - How did the residual moments change after RRA?
 - Are the residual moments acceptable?
-
 
 ## Summary and questions (15 min - 12h00)
 
@@ -217,10 +223,15 @@ https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Static+Optimizati
 
 ## 3.1 Calculate muscle forces during sprinting (60 min)
 - Load rra adjusted model 
+- Explore the setup files
+    setup_SO.xml
+    actuators_SO.xml
 - Run SO tool
 - Plot muscle forces and muscle activations (bflh_r and gaslat_r)
+- Adjust the model maximum isometric force of all muscles (double them)
 
 ### Questions
+- What are the main 3 factors affecting muscle forces
 - What is the main difference between the actuator.xml files from RRA and SO?
 - What are peak force of biceps femoris and soleus muscles?
 - How do the muscle activations look?
@@ -238,16 +249,19 @@ https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Static+Optimizati
 ## ------------- 10 min Break ------------- 
 
 ## 3.3 Calculate joint reaction loads (30 min)
+- How joint reaction loads work
 - Load rra ajudsted model 
 - Open Analyze tool and run setup_Analyze.xml
 - Plot the three components of hip contact force
 
 ### 3.3.1 Questions
-- 
+- What are the input files to calculate joint reaction loads?
+- What should be the apply_on_bodies and express_in_frame inputs?
+- What are the peak hip and knee joint forces in the 3 different axis?
+
 
 ## 3.4 Explore muscle analysis (45 min)
 - plot moment arms (all the hip muscles)
-- plot muscle-tendon lengths (all the hip muscles)
 - Increase the radius of wrapping surface of Gmax1_r to 0.055 and plot results again
 - Do the same for one knee muscle
 

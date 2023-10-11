@@ -22,7 +22,7 @@
 			</ExternalForce>
 			<ExternalForce name="Left">
 				<!--Name of the body the force is applied to.-->
-				<applied_to_body>ground</applied_to_body>
+				<applied_to_body>calcn_l</applied_to_body>
 				<!--Name of the body the force is expressed in (default is ground).-->
 				<force_expressed_in_body>ground</force_expressed_in_body>
 				<!--Name of the body the point is expressed in (default is ground).-->
@@ -38,6 +38,6 @@
 			</ExternalForce>
 		</objects>
 		<!--Storage file (.sto) containing (3) components of force and/or torque and point of application.Note: this file overrides the data source specified by the individual external forces if specified.-->
-		<datafile>C:\Git\BIP_OpenSim_Hungarian_USports\ExampleData\Sprinting\009\session1\Run_baseline\.\grf.mot</datafile>
+		<datafile>grf.mot</datafile>
 	</ExternalLoads>
 </OpenSimDocument>
