@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OpenSimDocument Version="30000">
    <AnalyzeTool name="">
-      <model_file>.\Rajagopal_rra_adjusted.osim</model_file>
+      <model_file>Rajagopal_rra_adjusted.osim</model_file>
       <replace_force_set>false</replace_force_set>
       <results_directory>.\</results_directory>
       <output_precision>12</output_precision>
@@ -14,7 +14,7 @@
                <end_time>5.405</end_time>
                <step_interval>1</step_interval>
                <in_degrees>true</in_degrees>
-               <forces_file>.\SO\_StaticOptimization_force.sto</forces_file>
+               <forces_file>.StaticOptimization_force.sto</forces_file>
                <joint_names>all</joint_names>
                <apply_on_bodies>parent</apply_on_bodies>
                <express_in_frame>parent</express_in_frame>

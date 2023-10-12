@@ -48,13 +48,15 @@
 							<scale_factors>1.0168384356127598 0.95511875051315753 0.94547169076411752</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
+								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
+								<visible>true</visible>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
 								<opacity>1</opacity>
 								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
 								<color>1 1 1</color>
 							</Appearance>
 							<!--Name of geometry file.-->
-							<mesh_file>..\r_pelvis.vtp</mesh_file>
+							<mesh_file>r_pelvis.vtp</mesh_file>
 						</Mesh>
 						<Mesh name="pelvis_geom_2">
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
@@ -5625,7 +5627,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>625.81967213114797</max_isometric_force>
+					<max_isometric_force>156.45491803278699</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10961803621457412</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -5722,7 +5724,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>916.79999999999995</max_isometric_force>
+					<max_isometric_force>4584</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.11791570693729331</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -5827,7 +5829,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.1985125092243876</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -5932,7 +5934,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.17455970015077846</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6037,7 +6039,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.15231227981679318</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6134,7 +6136,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10996455425253082</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6237,7 +6239,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1313.18360655738</max_isometric_force>
+					<max_isometric_force>6565.9180327868999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10782653913318709</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6334,7 +6336,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>557.11475409835998</max_isometric_force>
+					<max_isometric_force>139.27868852459</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.12011414554929439</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6446,7 +6448,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>603.49815560000002</max_isometric_force>
+					<max_isometric_force>150.8745389</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.072017046418412542</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6570,7 +6572,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>285.86754739999998</max_isometric_force>
+					<max_isometric_force>71.466886849999995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.07760683422496277</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6694,7 +6696,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>423.17704918032803</max_isometric_force>
+					<max_isometric_force>105.79426229508201</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.046176775356553304</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6812,7 +6814,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>907.83934426229405</max_isometric_force>
+					<max_isometric_force>4539.1967213114704</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.054472026790271667</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -6917,7 +6919,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1575.0590163934401</max_isometric_force>
+					<max_isometric_force>7875.2950819672005</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.061920640121776283</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7022,7 +7024,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>3115.5147540983598</max_isometric_force>
+					<max_isometric_force>15577.573770491799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.053757842929513043</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7131,7 +7133,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>983.78360655737799</max_isometric_force>
+					<max_isometric_force>4918.9180327868899</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.14795634721111134</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7240,7 +7242,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1406.0459016393499</max_isometric_force>
+					<max_isometric_force>7030.2295081967495</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.16103782358016139</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7349,7 +7351,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>947.75409836065603</max_isometric_force>
+					<max_isometric_force>4738.7704918032805</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.17444605755723461</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7446,7 +7448,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1093.4667688</max_isometric_force>
+					<max_isometric_force>5467.3338439999998</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.072152378553149391</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7543,7 +7545,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>765.09166159999995</max_isometric_force>
+					<max_isometric_force>3825.4583079999998</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.072129383666545713</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7640,7 +7642,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>871.19926420000002</max_isometric_force>
+					<max_isometric_force>4355.9963210000005</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.073173367892508806</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7728,7 +7730,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>374.04590163934398</max_isometric_force>
+					<max_isometric_force>93.511475409835995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.06906536575235861</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7816,7 +7818,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>394.81967213114802</max_isometric_force>
+					<max_isometric_force>98.704918032787006</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.056980795246823132</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -7904,7 +7906,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>446.77377049180399</max_isometric_force>
+					<max_isometric_force>111.693442622951</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.038720813180474878</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8007,7 +8009,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>281.31147540983602</max_isometric_force>
+					<max_isometric_force>70.327868852459005</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.25156083984230632</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8116,7 +8118,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1021.14098360656</max_isometric_force>
+					<max_isometric_force>5105.7049180327995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10739320275787359</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8222,7 +8224,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>521.20159880000006</max_isometric_force>
+					<max_isometric_force>130.30039970000001</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.047454426242034269</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8340,7 +8342,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1115.3714213999999</max_isometric_force>
+					<max_isometric_force>5576.8571069999998</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.052916115663240497</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8437,7 +8439,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1029.7868852459001</max_isometric_force>
+					<max_isometric_force>5148.9344262294999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.025616991830064391</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8546,7 +8548,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1426.79016393443</max_isometric_force>
+					<max_isometric_force>7133.9508196721499</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.11656218161429051</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8669,7 +8671,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>2191.7409836065599</max_isometric_force>
+					<max_isometric_force>10958.704918032799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.082097363784849178</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8775,7 +8777,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>249.41311475409799</max_isometric_force>
+					<max_isometric_force>62.353278688524497</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.43211711602572245</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8880,7 +8882,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>2200.9868852458999</max_isometric_force>
+					<max_isometric_force>11004.9344262295</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.076234664938051727</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -8991,7 +8993,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>591.29508196721395</max_isometric_force>
+					<max_isometric_force>147.82377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.21274264011238819</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9079,7 +9081,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>6194.8426229508204</max_isometric_force>
+					<max_isometric_force>30974.2131147541</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.046212146809981397</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9179,7 +9181,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>411.20655737704999</max_isometric_force>
+					<max_isometric_force>102.8016393442625</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10157818480176592</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9279,7 +9281,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1227.4524590163901</max_isometric_force>
+					<max_isometric_force>6137.2622950819505</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.071420920336888072</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9379,7 +9381,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1730.1540983606501</max_isometric_force>
+					<max_isometric_force>8650.7704918032505</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.03956914597205699</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9494,7 +9496,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1697.36065573771</max_isometric_force>
+					<max_isometric_force>8486.8032786885506</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10813705295513212</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9609,7 +9611,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>5148.7672131147601</max_isometric_force>
+					<max_isometric_force>25743.8360655738</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10825552624503385</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9724,7 +9726,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>2747.82295081966</max_isometric_force>
+					<max_isometric_force>13739.1147540983</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10523502283643443</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9821,7 +9823,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>625.81967213114797</max_isometric_force>
+					<max_isometric_force>156.45491803278699</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.11198267866819482</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -9918,7 +9920,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>916.79999999999995</max_isometric_force>
+					<max_isometric_force>4584</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.12100446170073055</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10023,7 +10025,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.2047570988054431</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10128,7 +10130,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.17994344125016568</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10233,7 +10235,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.15684224870445332</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10330,7 +10332,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>597.29508196721395</max_isometric_force>
+					<max_isometric_force>149.32377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.11193119555779538</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10433,7 +10435,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1313.18360655738</max_isometric_force>
+					<max_isometric_force>6565.9180327868999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.11036624950323452</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10530,7 +10532,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>557.11475409835998</max_isometric_force>
+					<max_isometric_force>139.27868852459</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.12223773679538033</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10642,7 +10644,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>603.49815560000002</max_isometric_force>
+					<max_isometric_force>150.8745389</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.070819286217175745</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10766,7 +10768,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>285.86754739999998</max_isometric_force>
+					<max_isometric_force>71.466886849999995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.076458097709009618</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -10890,7 +10892,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>423.17704918032803</max_isometric_force>
+					<max_isometric_force>105.79426229508201</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.045602210499241666</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11008,7 +11010,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>907.83934426229405</max_isometric_force>
+					<max_isometric_force>4539.1967213114704</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.053897325560100941</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11113,7 +11115,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1575.0590163934401</max_isometric_force>
+					<max_isometric_force>7875.2950819672005</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.06024042805241827</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11218,7 +11220,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>3115.5147540983598</max_isometric_force>
+					<max_isometric_force>15577.573770491799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.052363465154831319</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11327,7 +11329,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>983.78360655737799</max_isometric_force>
+					<max_isometric_force>4918.9180327868899</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.14944081755513428</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11436,7 +11438,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1406.0459016393499</max_isometric_force>
+					<max_isometric_force>7030.2295081967495</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.16320484401987242</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11545,7 +11547,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>947.75409836065603</max_isometric_force>
+					<max_isometric_force>4738.7704918032805</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.17746892168979519</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11642,7 +11644,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1093.4667688</max_isometric_force>
+					<max_isometric_force>5467.3338439999998</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.072675706005778481</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11739,7 +11741,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>765.09166159999995</max_isometric_force>
+					<max_isometric_force>3825.4583079999998</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.072668542989312704</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11836,7 +11838,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>871.19926420000002</max_isometric_force>
+					<max_isometric_force>4355.9963210000005</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.073834863639317447</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -11924,7 +11926,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>374.04590163934398</max_isometric_force>
+					<max_isometric_force>93.511475409835995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.069959068277769335</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12012,7 +12014,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>394.81967213114802</max_isometric_force>
+					<max_isometric_force>98.704918032787006</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.057756454613527373</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12100,7 +12102,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>446.77377049180399</max_isometric_force>
+					<max_isometric_force>111.693442622951</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.039243224774607982</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12203,7 +12205,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>281.31147540983602</max_isometric_force>
+					<max_isometric_force>70.327868852459005</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.25660707182874687</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12312,7 +12314,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1021.14098360656</max_isometric_force>
+					<max_isometric_force>5105.7049180327995</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10835593947560702</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12418,7 +12420,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>521.20159880000006</max_isometric_force>
+					<max_isometric_force>130.30039970000001</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.046356361346203766</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12536,7 +12538,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1115.3714213999999</max_isometric_force>
+					<max_isometric_force>5576.8571069999998</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.051895878960939397</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12630,7 +12632,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1029.7868852459001</max_isometric_force>
+					<max_isometric_force>5148.9344262294999</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.025849969185209477</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12739,7 +12741,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1426.79016393443</max_isometric_force>
+					<max_isometric_force>7133.9508196721499</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.11742463753169466</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12862,7 +12864,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>2191.7409836065599</max_isometric_force>
+					<max_isometric_force>10958.704918032799</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.083832208788836057</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -12977,7 +12979,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>249.41311475409799</max_isometric_force>
+					<max_isometric_force>62.353278688524497</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.4383714278482127</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13082,7 +13084,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>2200.9868852458999</max_isometric_force>
+					<max_isometric_force>11004.9344262295</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.07808975510100101</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13193,7 +13195,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>591.29508196721395</max_isometric_force>
+					<max_isometric_force>147.82377049180349</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.21671565134388349</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13281,7 +13283,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>6194.8426229508204</max_isometric_force>
+					<max_isometric_force>30974.2131147541</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.044894283697029906</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13381,7 +13383,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>411.20655737704999</max_isometric_force>
+					<max_isometric_force>102.8016393442625</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10357309183358546</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13481,7 +13483,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1227.4524590163901</max_isometric_force>
+					<max_isometric_force>6137.2622950819505</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.069733787120753538</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13581,7 +13583,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1730.1540983606501</max_isometric_force>
+					<max_isometric_force>8650.7704918032505</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.038587207717965311</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13696,7 +13698,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>1697.36065573771</max_isometric_force>
+					<max_isometric_force>8486.8032786885506</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.11022144496656047</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13811,7 +13813,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>5148.7672131147601</max_isometric_force>
+					<max_isometric_force>25743.8360655738</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.110380699231569</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13926,7 +13928,7 @@
 						</Appearance>
 					</GeometryPath>
 					<!--Maximum isometric force that the fibers can generate-->
-					<max_isometric_force>2747.82295081966</max_isometric_force>
+					<max_isometric_force>13739.1147540983</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
 					<optimal_fiber_length>0.10718396037184882</optimal_fiber_length>
 					<!--Resting length of the tendon-->
@@ -13981,176 +13983,6 @@
 						<!--All properties of this object have their default values.-->
 					</TendonForceLengthCurve>
 				</Millard2012EquilibriumMuscle>
-				<CoordinateActuator name="lumbar_ext">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>lumbar_extension</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="lumbar_bend">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>lumbar_bending</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="lumbar_rot">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>lumbar_rotation</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="shoulder_flex_r">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>arm_flex_r</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="shoulder_add_r">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>arm_add_r</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="shoulder_rot_r">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>arm_rot_r</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="elbow_flex_r">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>elbow_flex_r</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="pro_sup_r">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>pro_sup_r</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="wrist_flex_r">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>wrist_flex_r</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="wrist_dev_r">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>wrist_dev_r</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="shoulder_flex_l">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>arm_flex_l</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="shoulder_add_l">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>arm_add_l</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="shoulder_rot_l">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>arm_rot_l</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="elbow_flex_l">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>elbow_flex_l</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="pro_sup_l">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>pro_sup_l</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="wrist_flex_l">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>wrist_flex_l</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
-				<CoordinateActuator name="wrist_dev_l">
-					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
-					<min_control>-Inf</min_control>
-					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
-					<max_control>Inf</max_control>
-					<!--Name of the generalized coordinate to which the actuator applies.-->
-					<coordinate>wrist_dev_l</coordinate>
-					<!--The maximum generalized force produced by this actuator.-->
-					<optimal_force>10</optimal_force>
-				</CoordinateActuator>
 			</objects>
 			<groups>
 				<ObjectGroup name="right_leg">
@@ -14248,7 +14080,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/torso</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.084060811988879436 0.59792159964470959 -0.039287412221591933</location>
+					<location>-0.10447732262518733 0.59192665930638322 -0.038381128930810249</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14256,7 +14088,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/torso</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.029887171487899711 0.59784530092635224 0.078588456805117501</location>
+					<location>-0.057257808225530893 0.59358067760122069 0.082437294038398945</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14272,7 +14104,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/torso</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.065039950260354473 0.086141776472140386 0.0054005922822675245</location>
+					<location>-0.057656714334403725 0.081639632055858335 0.0027574028013984675</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14296,7 +14128,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/humerus_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.010231009961158222 -0.15087956986747819 -0.061612787513331879</location>
+					<location>0.010502123565216515 -0.14718119873687985 -0.060559002449475763</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14304,7 +14136,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/humerus_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.046934108897308313 -0.16673715024737557 -0.034087731749336214</location>
+					<location>0.04691165029940092 -0.16280487446340508 -0.032515177075288504</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14312,7 +14144,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/humerus_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.02026584605954973 -0.21831724962616272 -0.053515402408876422</location>
+					<location>0.021089917244994538 -0.21455378064290054 -0.052625524990171257</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14368,7 +14200,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/humerus_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.025673930510530796 -0.12803003976639804 0.034488595009972089</location>
+					<location>0.017976731406131763 -0.13528659497154671 0.045924500886154074</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14376,7 +14208,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/humerus_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.050858745204340083 -0.15143225165359886 0.0043288370496117889</location>
+					<location>0.045008710223044368 -0.15678878960542186 0.015949892302030144</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14384,7 +14216,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/humerus_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.027451807136793849 -0.19628257090479728 0.036685755096923955</location>
+					<location>0.02092790529976768 -0.20352713967826852 0.044967947007125919</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14480,7 +14312,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.0073856605256029662 -0.16744089935762541 -0.11555367609499734</location>
+					<location>0.0060671332587208804 -0.17100142551231778 -0.11511695045205061</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14488,7 +14320,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.031417560613885676 -0.24877233071979699 -0.10337217507431395</location>
+					<location>0.030598863849373104 -0.25220833849784119 -0.10310219311038926</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14496,7 +14328,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.075142748100473944 -0.24874020185480206 -0.085045157026133911</location>
+					<location>0.074457572615397594 -0.25195221372403298 -0.085098840394385089</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14504,7 +14336,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.0035270529639264692 -0.29835782662078858 -0.094409646046509366</location>
+					<location>-0.0040276807115730562 -0.30196808360908889 -0.093874813923611855</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14536,7 +14368,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.028393644804652285 -0.11813599063411906 -0.040932169119305195</location>
+					<location>0.029152945206712577 -0.12178405733831171 -0.040473244633168148</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14544,7 +14376,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.030408599630394439 -0.16639619928787186 -0.08450303495850342</location>
+					<location>-0.02996931140741127 -0.1699692202443791 -0.083692694981935878</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14552,7 +14384,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.0092580751865201649 -0.16624934223279314 -0.066315662514984552</location>
+					<location>0.0097956601717884006 -0.16988020064445813 -0.065720875785175936</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14560,7 +14392,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_l</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.021279542407644292 -0.24536345805979409 -0.035065920993373689</location>
+					<location>0.02184788175266722 -0.24899500624825849 -0.034484729549725701</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14632,7 +14464,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.016553604967517455 -0.17674377426825227 0.10514751588986837</location>
+					<location>0.016327703939836236 -0.18120089426595576 0.10508558690415959</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14640,7 +14472,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.040137493267048963 -0.23421299530778117 0.094125637250929595</location>
+					<location>0.040262375764923364 -0.23851431715956262 0.094008764083943208</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14648,7 +14480,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.068162762987683201 -0.23996128560769281 0.079198082765022937</location>
+					<location>0.068291777726203762 -0.24407872831739863 0.079019420490056613</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14656,7 +14488,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/femur_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.0073964112976869223 -0.30706124214632491 0.076055193714865688</location>
+					<location>-0.0068340313529322017 -0.31167087502760815 0.076038606664003638</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14688,7 +14520,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.030447066848355908 -0.18777649327294282 0.022909119407860445</location>
+					<location>0.031746707620308567 -0.19237213743025144 0.022686917279974961</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14696,7 +14528,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>-0.030103571905196636 -0.26908022700643752 0.061364206757640427</location>
+					<location>-0.028794114535642457 -0.27356039334854321 0.061400566929380229</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14704,7 +14536,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.012806266745313044 -0.26790735385111403 0.044275177799333543</location>
+					<location>0.014038729565739483 -0.27247189561813889 0.044113941056563855</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -14712,7 +14544,7 @@
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/tibia_r</socket_parent_frame>
 					<!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.023374681375253947 -0.3151098838997819 0.013481033106995777</location>
+					<location>0.024367079670581882 -0.31968813480396518 0.013259419193844768</location>
 					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				</Marker>
