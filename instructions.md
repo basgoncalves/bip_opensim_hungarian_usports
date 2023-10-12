@@ -281,39 +281,9 @@ https://simtk-confluence.stanford.edu:8443/display/OpenSim/How+Static+Optimizati
 
 ## 4.1 Bone deformities (45 min)
 
-Protocol described here: https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044 
-
-- For each participant follow these steps
-- Load torsion model (Bone_deformities\P01\pre\Torsion_model_generic.osim)
-- Load scaled model for each participant (Bone_deformities\P01\pre\Static03\Setup_Scale.xml)
-- Plot moment arms Glutes and change wrapping surfaces
-- Run IK, ID, SO, and JRA for both participants (one trial)
-- Plot kinematics, moments, muscle forces (recfem, gmax1, psoas)
-- Plot hip contact forces
-
-### Questions
-- How do subjects differ in kinematics
-- How were moments arms affected by the torsion
-
-
 ## 4.2 Compare muscle forces before and after maximal repeated sprints (45 min)
 
-Protocol described here: https://www.sciencedirect.com/science/article/abs/pii/S1440244021000608 
-
-- Load scaled model 
-- Run IK, ID, RRA, and SO for trial Run_post_fatigue (use the RRA adjusted model)
-- Plot muscle forces and muscle activations (bflh_r and gaslat_r)
-
-### Questions
-- What are peak force of biceps femoris and soleus muscles?
-
-
 ## 4.3 Simulation and Analysis of a Tendon Transfer Surgery (45 min)
-
-Protocol described here: https://simtk-confluence.stanford.edu:8443/pages/viewpage.action?pageId=92110947 
-
-### Questions
-- How did the MTU length of the rect_fem_r change?
 
 # --------------------------------------- 
 #               Day 5           
