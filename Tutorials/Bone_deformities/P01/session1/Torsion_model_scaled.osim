@@ -98,13 +98,13 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.59999999999999998 0.45000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.069182889056867092 -0.10061134793483686 0.051908424066767683</translation>
+								<translation>-0.069182900000000006 -0.089999999999999997 0.0519084</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-x</quadrant>
 								<!--Default appearance for this Geometry-->
 								<Appearance>
 									<!--Flag indicating whether the associated Geometry is visible or hidden.-->
-									<visible>false</visible>
+									<visible>true</visible>
 									<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
 									<opacity>0.5</opacity>
 									<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -116,7 +116,7 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.03733461452423336</radius>
+								<radius>0.025000000000000001</radius>
 								<!--The length of the cylinder.-->
 								<length>0.13580215152472908</length>
 							</WrapCylinder>
@@ -6456,7 +6456,7 @@
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--Flag indicating whether the associated Geometry is visible or hidden.-->
-							<visible>false</visible>
+							<visible>true</visible>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
 							<color>0.80000000000000004 0.10000000000000001 0.10000000000000001</color>
 						</Appearance>
